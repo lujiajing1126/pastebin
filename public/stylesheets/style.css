@@ -1,0 +1,37 @@
+body{
+width:100%;
+background-image: url("../images/bg_dotted.png");
+overflow:hidden;
+}
+.row-fluid{
+position:absolute;
+top:35px;
+}
+label.titles{
+font-size:20px;
+color:#dd4814;
+text-decoration: none;
+display: inline;
+}
+span.notes{
+color: #888;
+margin-left: 6px;
+}
+.mycontainer{
+padding:30px 0 0 0;
+-webkit-box-shadow: 0px 1px 5px #bbb;
+height:560px;
+align:center;
+background-color:white;
+-webkit-border-radius: 0px 0px 10px 10px;
+}
+form#code{
+width:700px;
+margin:0 auto;
+}
+.footer{
+position: absolute;
+top:97%;
+left:40%;
+width:500px;
+}

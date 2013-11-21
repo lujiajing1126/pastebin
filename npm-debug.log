@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git://github.com/jsdoc3/jsdoc.git' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'git://github.com/jsdoc3/jsdoc.git', null ]
+6 verbose cache add name=undefined spec="git://github.com/jsdoc3/jsdoc.git" args=["git://github.com/jsdoc3/jsdoc.git",null]
+7 verbose parsed url { protocol: 'git:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/jsdoc3/jsdoc.git',
+7 verbose parsed url   path: '/jsdoc3/jsdoc.git',
+7 verbose parsed url   href: 'git://github.com/jsdoc3/jsdoc.git' }
+8 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+9 verbose lock git://github.com/jsdoc3/jsdoc.git C:\Users\megrez\AppData\Roaming\npm-cache\0dba5517-git-github-com-jsdoc3-jsdoc-git.lock
+10 verbose addRemoteGit [ 'git://github.com/jsdoc3/jsdoc.git', 'master' ]
+11 warn `git config --get remote.origin.url` returned wrong result (git://github.com/jsdoc3/jsdoc.git)
+12 error git clone git://github.com/jsdoc3/jsdoc.git Cloning into bare repository 'C:\Users\megrez\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jsdoc3-jsdoc-git-0dba5517'...
+12 error git clone git://github.com/jsdoc3/jsdoc.git
+12 error git clone git://github.com/jsdoc3/jsdoc.git fatal: read error: Invalid argument
+13 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+14 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+15 error Error: Command failed: fatal: read error: Invalid argument
+15 error
+15 error     at ChildProcess.exithandler (child_process.js:637:15)
+15 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+15 error     at maybeClose (child_process.js:735:16)
+15 error     at Socket.<anonymous> (child_process.js:948:11)
+15 error     at Socket.EventEmitter.emit (events.js:95:17)
+15 error     at Pipe.close (net.js:466:12)
+16 error If you need help, you may report this log at:
+16 error     <http://github.com/isaacs/npm/issues>
+16 error or email it to:
+16 error     <npm-@googlegroups.com>
+17 error System Windows_NT 6.2.9200
+18 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "git://github.com/jsdoc3/jsdoc.git"
+19 error cwd C:\Program Files (x86)\Zend\Apache2\htdocs\nodejs\pastebin
+20 error node -v v0.10.13
+21 error npm -v 1.3.2
+22 error code 128
+23 verbose exit [ 1, true ]

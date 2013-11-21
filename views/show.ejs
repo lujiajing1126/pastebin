@@ -1,0 +1,36 @@
+<HTML>
+	<Head>
+		<title>PasteBin</title>
+		<link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+		<link rel="stylesheet" href="stylesheets/bootstrap-responsive.min.css"/>
+		<link rel="stylesheet" href="stylesheets/style.css" />
+		<style>
+		#editor{
+			height:400px;
+			overflow-x : scroll;
+		}
+		.from-mongo{
+			font-size: 20px;
+			margin-left: 5px;
+		}
+		</style>
+	</Head>
+	<body>
+		<%- include navbar %>
+		<div class="row-fluid">
+    	<div class="span1"></div>
+    	<div class="span10 mycontainer">
+        <form id="code">
+        <label class="titles">Poster:</label><span class="from-mongo"><%= poster %></span>
+        <BR>
+        <label id="syntax"class="titles">Syntax:</label><span class="from-mongo"><%= syntax %></span>
+        <BR>
+        <label class="titles">Content:</label>
+        <BR>
+        <pre id="editor"><%= content %></pre>
+        </form>
+    	</div>
+    <div class="span1"></div>
+	</div>
+	</body>
+</HTML>
